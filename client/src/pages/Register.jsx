@@ -68,6 +68,7 @@ export const Register = () => {
                 <span>password: </span>
                 <input ref={passwordDom} type="text" placeholder='password' />
             </div>
+            <button type='submit'>Register</button>
         </form>
     </section>
   )
