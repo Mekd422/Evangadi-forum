@@ -1,0 +1,28 @@
+{
+  "name": "evangadi_forum",
+  "version": "1.0.0",
+  "description": "a simple project for learning",
+  "homepage": "https://github.com/Mekdes-A/Evangadi-forum#readme",
+  "bugs": {
+    "url": "https://github.com/Mekdes-A/Evangadi-forum/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mekdes-A/Evangadi-forum.git"
+  },
+  "license": "ISC",
+  "author": "Mekdes Assefa",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1"
+  }
+}
